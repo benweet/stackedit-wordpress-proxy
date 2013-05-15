@@ -36,7 +36,7 @@ app.get('/authenticate/:code', function(req, res) {
 		config.oauth_access_token_path);
 	oa.getOAuthAccessToken(req.params.code, {'redirect_uri': config.redirect_uri, 'grant_type': 'authorization_code'}, function(error, access_token, refresh_token, results){
 		if(error) {
-			console.log("Error: " + error);
+			console.log("Error: " + JSON.stringify(error));
 			res.json({error: error});
 			return;
 		}
