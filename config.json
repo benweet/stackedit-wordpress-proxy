@@ -3,6 +3,6 @@
   "oauth_client_secret": "WORDPRESS_CLIENT_SECRET",
   "oauth_base_site": "https://public-api.wordpress.com",
   "oauth_authorize_path": "/oauth2/authorize",
-  "oauth_access_token_path": "/oauth2/token"
+  "oauth_access_token_path": "/oauth2/token",
   "redirect_uri": "http://benweet.github.io/stackedit/wordpress-oauth-client.html"
 }
