@@ -1,4 +1,4 @@
-StackEdit WordPress proxy
+StackEdit WordPress Proxy
 =========================
 
 WordPress proxy for StackEdit. Supports WordPress REST API v1.
