@@ -22,7 +22,7 @@ Deploy on Heroku
 
  - Specify application's consumer key / secret key:
 
-		heroku config:add WORDPRESS_CLIENT_ID=abc WORDPRESS_CLIENT_SECRET=xyz
+		heroku config:add OAUTH_CLIENT_ID=abc OAUTH_CLIENT_SECRET=xyz REDIRECT_URI=https://stackedit.io/html/wordpress-oauth-client.html
 
  - Push changes to Heroku:
 
