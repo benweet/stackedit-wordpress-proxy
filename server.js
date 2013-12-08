@@ -45,7 +45,7 @@ app.get('/authenticate/:code', function(req, res) {
 			res.json({error: error});
 			return;
 		}
-		console.log("OAuth token: " + access_token);
+		//console.log("OAuth token: " + access_token);
 		// Send OAuth token back to the client
 		res.json({token: access_token});
 	});
@@ -56,6 +56,8 @@ app.post('/post', function(req, res) {
 	//var oa = new createOauthObject();
 	var data = JSON.stringify({
 		tags: req.body.tags,
+		status: req.body.status,
+		date: req.body.date,
 		title: req.body.title,
 		content: req.body.content
 	});
